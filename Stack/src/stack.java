@@ -1,25 +1,42 @@
-import jdk.nashorn.internal.IntDeque;
-
-import java.util.Stack;
 
 public class stack
 {
+ private int[] numbers;
 
+    public boolean empty(){
 
-    public static void main(String[] args) {
-        Stack<Integer> stack = new Stack();
-
-        stack.push(5);
-        stack.push(6);
-        stack.push(7);
-
-        int number = stack.pop();
-        System.out.println("Removed Element: " + number);
-
-        System.out.println("Stack: " + stack);
-
+    return numbers == null;
     }
 
+     public void clear(){
 
+
+     }
+
+     public void print(){
+
+     }
+
+     public void push(){
+
+     }
+
+     public void pop(){
+
+     }
+
+     public int size(){
+        return 0;
+    }
+
+     public int peek (){
+        return 0;
+     }
+
+     public boolean contain(int number){
+
+         return false;
+     }
 }
+
 
