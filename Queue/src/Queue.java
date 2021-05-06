@@ -1,4 +1,4 @@
-public class queue {
+public class Queue {
     private int[] numbers;
 
     public boolean empty(){
