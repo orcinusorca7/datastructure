@@ -51,9 +51,16 @@ public class stack
      }
 
 
-     public boolean contain(int number){
-
-         return false;
+     public boolean contains(int number){
+        if(empty()){
+            return false;
+        }
+        for(int i = 0; i<numbers.length; i++){
+            if(numbers[i] == number){
+                return true;
+            }
+        }
+        return false;
      }
 }
 
