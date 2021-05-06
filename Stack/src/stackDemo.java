@@ -7,6 +7,7 @@ public class stackDemo {
         Stack.push(10);
         Stack.push(20);
         Stack.push(30);
+        Stack.print();
         System.out.println(Stack.size());
         Stack.pop();
         Stack.peek();
