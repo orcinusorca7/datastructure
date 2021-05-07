@@ -17,4 +17,27 @@ public class DynamicArray {
     private boolean empty() {
         return numbers == null;
     }
+
+    public int size(){
+        return numbers.length;
+    }
+
+
+    public void clear(){
+
+        numbers = null;
+
+    }
+
+    public boolean contains(int number){
+        if(empty()){
+            return false;
+        }
+        for(int i = 0; i<numbers.length; i++){
+            if(numbers[i] == number){
+                return true;
+            }
+        }
+        return false;
+    }
 }
