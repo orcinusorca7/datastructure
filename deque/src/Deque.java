@@ -2,6 +2,15 @@ import sun.misc.Queue;
 
 class Deque extends Queue {
 
+    public void enqueueRear(int number){
+
+    }
+
+
+    public void dequeueFront(){
+
+    }
+
   //  private int[] numbers;
 
 //    public boolean empty(){
