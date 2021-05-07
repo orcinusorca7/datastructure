@@ -2,12 +2,27 @@ import sun.misc.Queue;
 
 class Deque extends Queue {
 
+    private int[] numbers;
+
     public void enqueueRear(int number){
 
     }
 
 
     public void dequeueFront(){
+        if (numbers == null)
+        { System.err.println("empty stack");
+            return;
+        }else if (numbers.length==1){
+            numbers= null;
+            return;
+        }
+        int[] temp = new int [numbers.length-1];
+        for (int i=0; i< temp.length; i++)
+        {
+            temp[i] = numbers[i];
+        }
+        numbers = temp;
 
     }
 
