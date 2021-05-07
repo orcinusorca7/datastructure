@@ -1,4 +1,4 @@
-public class DequeDemo {
+ class DequeDemo extends queueDemo {
 
 
 }
